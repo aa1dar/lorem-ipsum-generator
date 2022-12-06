@@ -1,0 +1,30 @@
+{
+  "name": "lorem-ipsum-generator",
+  "displayName": "Lorem Ipsum Generator",
+  "description": "An extension called from a code snippet that generate and paste the lorem ipsum text into a file",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ],
+    "keybindings": {
+      "key": "ctrl+k 1",
+      "mac": "cmd+k 1",
+      "command": "editor.action.insertSnippet",
+      "when": "editorTextFocus",
+      "args": {
+        "langId": "dart",
+        "name": "Print Lorem Ipsum"
+      }
+    }
+  }
+}

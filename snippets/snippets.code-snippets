@@ -1,0 +1,17 @@
+{
+	"Print Lorem Ipsum": {
+		"prefix":  ["lorem"],
+		"body": [
+			"\"Lorem ipsum dolor sit amet, consectetur adipiscing elit\"$0"],
+		"description": "Print a lorem ipsum string"
+	},
+    "Print 3 sentences of lorem ipsum": {
+		"prefix":  ["Lorem"],
+		"body": [
+			"\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do \" + ",
+            "\"eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi \" +",
+            "\"quis eleifend quam adipiscing vitae proin. Imperdiet dui accumsan \" +", 
+            "\"sit amet nulla.\"$0"],
+		"description": "Output several sentences of lorem ipsum"
+	}
+}
